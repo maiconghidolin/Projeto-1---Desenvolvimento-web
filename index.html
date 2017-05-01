@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projemax - Estruturas Metálicas</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+</head>
+<body>
+    <header>
+        <div class="top-bar list-inline intro-social-buttons" id="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <div class="phone-mail" >
+                            <ul class="list-inline">
+                                <li>
+                                    <a onclick="scrollToElement('#contact');">
+                                        <div class="phone-mail-box"><i class="fa fa-phone"></i> (49) 3328 7734</div></a>
+                                </li>
+                                <li>
+                                    <a onclick="scrollToElement('#contact');">
+                                        <div class="phone-mail-box"><i class="fa fa-envelope"></i> projemax.engenharia@bol.com.br</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <div class="social">
+                            <a href="https://www.linkedin.com/in/flavio-santini-20409344">
+                                <div class="social-box"><i class="fa fa-linkedin"></i></div>
+                            </a>
+                            <a href="https://www.facebook.com/projemax.engenharia">
+                                <div class="social-box"><i class="fa fa-facebook"></i></div>
+                            </a>
+                            <a onclick="scrollToElement('#contact');" style="cursor: pointer">
+                                <div class="social-box"><i class="fa fa-whatsapp"></i></div>
+                            </a>
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>     
+        </div>
+        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" id="menu">
+            <a class="down-button" onclick="slideTopBar()" >
+                <i class="fa fa-angle-down" id="iangleupdown"></i>
+            </a>
+            <div class="container topnav">
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand topnav" onclick="scrollToElement('#home');">
+                        <div class="header-box"><img alt="alt" src="img/logo1.png"></div>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse header" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a onclick="scrollToElement('#home');">
+                                <div class="header-box">HOME</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="scrollToElement('#about');">
+                                <div class="header-box">SOBRE</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="scrollToElement('#services');">
+                                <div class="header-box">SERVIÇOS</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="scrollToElement('#portfolio');">
+                                <div class="header-box">PORTFÓLIO</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="scrollToElement('#contact');">
+                                <div class="header-box">CONTATO</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="intro-header" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Projemax</h1>
+                        <h3>Projetos de Estruturas Metálicas</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li><a onclick="scrollToElement('#contact');" class="btn btn-default btn-lg"><i class="fa fa-whatsapp fa-fw"></i></a></li>
+                            <li><a href="https://www.facebook.com/projemax.engenharia" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/flavio-santini-20409344" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="title"><h2>Sobre nós</h2><hr class="title-row"></div>
+            <div>
+                <p>A Projemax é uma empresa que presta serviços de Projetos para Construções em Estruturas Metálicas.</p>
+                <p>Temos em nossa equipe técnica, profissionais graduados com mais de 15 anos de experiência, garantindo atender os prazos com qualidade e confiabilidade.</p>
+                <p>Projetamos com software na plataforma Bin, elaboramos o Modelo 4D (maquete virtual), desta forma verificando todas e quaisquer interferências eliminando todas as possibilidades de erro no projeto.</p>
+                <p>Elaboramos os projetos seguindo rigidamente os padrões normativos e solicitações do cliente, bem como a necessidade de cada obra.</p>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+            <div class="title"><h2>Nosso trabalho</h2><hr class="title-row"></div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-3 serv" >
+                    <i class="fa fa-calculator img-circle services-box" ></i>
+                    <h2>Calculo estrutural, dimensionando os perfis.</h2>
+                </div>
+                <div class="col-lg-3 col-sm-3 serv">
+                    <i class="fa fa-paper-plane img-circle services-box" ></i>
+                    <h2>Lançamento tridimensional gerando maquete virtual  (Modelo 4D).</h2>
+                </div>
+                <div class="col-lg-3 col-sm-3 serv">
+                    <i class="fa fa-list img-circle services-box" ></i>
+                    <h2>Detalhamento para fabricação em equipamentos CNC ou convencionais.</h2>
+                </div>
+                <div class="col-lg-3 col-sm-3 serv">
+                    <i class="fa fa-map img-circle services-box" ></i>
+                    <h2>Diagramas de montagem da estrutura.</h2>
+                </div>
+            </div>
+            <div class="row" style="padding-top:20px">
+                <div class="col-lg-3 col-sm-3 serv" >
+                    <i class="fa fa-file-o img-circle services-box" ></i>
+                    <h2>Paginação de telhas.</h2>
+                </div>
+                <div class="col-lg-3 col-sm-3 serv">
+                    <i class="fa fa-cog img-circle services-box" ></i>
+                    <h2>Listas de materiais e parafusos.</h2>
+                </div>
+                <div class="col-lg-3 col-sm-3 serv">
+                    <i class="fa fa-paint-brush img-circle services-box" ></i>
+                    <h2>Desenhos individuais de todas os componentes (CAM - FNC para máquinas CNC).</h2>
+                </div>
+                <div class="col-lg-3 col-sm-3 serv" >
+                    <i class="fa fa-file-archive-o img-circle services-box" ></i>
+                    <h2>Arquivo DBF para TecnoCAM.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="title">
+                    <h2>Portfólio</h2>
+                    <hr class="title-row">
+                </div>
+                <div class="row" id="filter-container">
+                        <ul class="list-inline intro-social-buttons" style="height: auto;">
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra1.png" title=""><img alt="" src="img/obra1.png" /></a>
+                                        <figcaption><h3 class="heading">Detalhamento</h3>Projeto de detalhamento para fábrica.</figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra2.jpg" title=""><img alt="" src="img/obra2.jpg" /></a>
+                                        <figcaption><h3 class="heading">Maquete virtual</h3>Lançamento tridimensional gerando maquete virtual  (Modelo 4D). </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra3.png" title=""><img alt="" src="img/obra3.png" /></a>
+                                        <figcaption><h3 class="heading">Detalhamento 3D</h3>Planificação da maquete virtual.</figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra10.png" title=""><img alt="" src="img/obra10.png" /></a>
+                                        <figcaption><h3 class="heading">Estudo 4D</h3>Estudo para maquete virtual.</figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra12.png" title=""><img alt="" src="img/obra12.png" /></a>
+                                        <figcaption><h3 class="heading">Diagrama de montagem</h3>Projeto de diagrama para montagem da estrutura metálica.</figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra11.png" title=""><img alt="" src="img/obra11.png" /></a>
+                                        <figcaption><h3 class="heading">Estudo 4D</h3>Estudo para maquete virtual.</figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra4.jpg" title=""><img alt="" src="img/obra4.jpg" /></a>
+                                        <figcaption><h3 class="heading">Ibis Chapecó/SC</h3>Projeto de estrutura metálica da cobertura e do porte cochère. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra5.jpg" title=""><img alt="" src="img/obra5.jpg" /></a>
+                                        <figcaption><h3 class="heading">Ibis Chapecó/SC</h3>Projeto de estrutura metálica da cobertura e do porte cochère. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra6.jpg" title=""><img alt="" src="img/obra6.jpg" /></a>
+                                        <figcaption><h3 class="heading">Ibis Chapecó/SC</h3>Projeto de estrutura metálica do porte cochère. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra7.png" title=""><img alt="" src="img/obra7.png" /></a>
+                                        <figcaption><h3 class="heading">Supermercado Cotrijal Colorado/RS</h3>Detalhamento da cobertura principal e das marquises externas. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra8.jpg" title=""><img alt="" src="img/obra8.jpg" /></a>
+                                        <figcaption><h3 class="heading">Supermercado Cotrijal Colorado/RS</h3>Detalhamento da cobertura principal e das marquises externas. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra9.png" title=""><img alt="" src="img/obra9.png" /></a>
+                                        <figcaption><h3 class="heading">Supermercado Cotrijal Colorado/RS</h3>Detalhamento da cobertura principal e das marquises externas. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra13.jpg" title=""><img alt="" src="img/obra13.jpg" /></a>
+                                        <figcaption><h3 class="heading">PCH Brookfield</h3>PCH Verde 4A Água Clara/MS. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra14.png" title=""><img alt="" src="img/obra14.png" /></a>
+                                        <figcaption><h3 class="heading">Avivar Alimentos São Sebastião do Oeste/MG</h3>Torre de Peletização. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra15.png" title=""><img alt="" src="img/obra15.png" /></a>
+                                        <figcaption><h3 class="heading">Averama Umuarama/PR</h3>Vão livre de 56,7 metros. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra16.png" title=""><img alt="" src="img/obra16.png" /></a>
+                                        <figcaption><h3 class="heading">Auto center Goodyear</h3>Bellezier Auto center - Goodyear Porto Alegre/RS. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra17.png" title=""><img alt="" src="img/obra17.png" /></a>
+                                        <figcaption><h3 class="heading">Copacol Cascavel/PR</h3>Vão livre de 61 metros. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra18.png" title=""><img alt="" src="img/obra18.png" /></a>
+                                        <figcaption><h3 class="heading">URI Erechim/RS</h3>Obra com sistema estrutural + painel termo acústico. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra19.png" title=""><img alt="" src="img/obra19.png" /></a>
+                                        <figcaption><h3 class="heading">Aurora Lajeado Grande/SC</h3>Projeto de Estrutura Metálica e conforto térmico natural. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra20.jpg" title=""><img alt="" src="img/obra20.jpg" /></a>
+                                        <figcaption><h3 class="heading">Aurora Lajeado Grande/SC</h3>Projeto de Estrutura Metálica e conforto térmico natural. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra21.jpg" title=""><img alt="" src="img/obra21.jpg" /></a>
+                                        <figcaption><h3 class="heading">Pórtico Rolante</h3>Pórtico Rolante com capacidade de 5 toneladas. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra22.jpg" title=""><img alt="" src="img/obra22.jpg" /></a>
+                                        <figcaption><h3 class="heading">Ponte rolante</h3>Ponte rolante com capacidade de 25 toneladas. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra23.jpg" title=""><img alt="" src="img/obra23.jpg" /></a>
+                                        <figcaption><h3 class="heading">Ponte rolante</h3>Ponte rolante com capacidade de 25 toneladas. </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure >
+                                        <a class="thumb" rel="example_group" href="img/obra24.jpg" title=""><img alt="" src="img/obra24.jpg" /></a>
+                                        <figcaption><h3 class="heading">Ponte rolante</h3>Ponte rolante com capacidade de 25 toneladas. </figcaption>
+                                    </figure>
+                                </li>
+                            </ul>
+                </div>
+            </div>
+        </div>
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="title">
+                <h2>Contato</h2>
+                <hr class="title-row">
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.6561765372985!2d-52.646461185354106!3d-27.10413500774215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b445e924ac23%3A0x46c719c0de37ec9d!2sR.+V%C3%ADtor+Palma%2C+2+-+Parque+das+Palmeiras%2C+Chapec%C3%B3+-+SC%2C+89803-750!5e0!3m2!1spt-BR!2sbr!4v1459040568771" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <ul class="lista-contato">
+                        <li><i class="fa fa-map-marker"></i> R. Victor Palma, 22 D - Parque das Palmeiras, Chapecó - SC 89803-750</li>
+                        <li><i class="fa fa-phone"></i> (49) 3328 7734</li>
+                        <li><i class="fa fa-whatsapp"></i> (49) 9932 7786</li>
+                        <li><i class="fa fa-envelope"></i> projemax.engenharia@bol.com.br</li>
+                        <li>
+                            <hr class="intro-divider">
+                            <ul class="list-inline intro-social-buttons">
+                                <li>
+                                    <a href="https://www.facebook.com/projemax.engenharia" class="btn btn-default btn-sm"><i class="fa fa-facebook fa-fw"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/flavio-santini-20409344" class="btn btn-default btn-sm"><i class="fa fa-linkedin fa-fw"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-muted meddium">Copyright &copy; Projemax <span id="spnAno"></span>.</p>
+                    <p class="copyright text-muted meddium">Developed by <a href="https://br.linkedin.com/in/maicon-ghidolin-2b69a2bb">Maicon Ghidolin</a> <span id="spnAno"></span>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $("#menu").addClass("slide");   
+                } else {
+                    if ($(this).scrollTop() < 100) {
+                        $("#menu").removeClass("slide");
+                    }
+                }
+            });
+            var today = new Date();
+            var year = today.getFullYear();
+            $("#spnAno").html(year);
+            $("a[rel=example_group]").fancybox({
+                'transitionIn'      : 'none',
+                'transitionOut'     : 'none'
+            });
+        });
+        function slideTopBar(){
+            if ($('#iangleupdown').hasClass('fa fa-angle-up')){
+                $("#menu").removeClass("slidemobile"); 
+                $('#iangleupdown').removeClass('fa fa-angle-up');
+                $('#iangleupdown').addClass('fa fa-angle-down');
+            }else{
+                $("#menu").addClass("slidemobile"); 
+                $('#iangleupdown').removeClass('fa fa-angle-down');
+                $('#iangleupdown').addClass('fa fa-angle-up');
+            }
+        }
+        var scrollToElement = function(el){
+                $('html,body').animate({ scrollTop: $(el).offset().top - 70 }, 1000);
+            }
+    </script>
+</body>
+</html>
